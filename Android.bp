@@ -620,63 +620,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqtikeymaster4",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqtikeymaster4.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcrypto",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "libutils",
-                "libcutils",
-                "libkeymasterdeviceutils",
-                "libkeymasterutils",
-                "libbase",
-                "android.hardware.keymaster@4.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqtikeymaster4.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcrypto",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "libutils",
-                "libcutils",
-                "libkeymasterdeviceutils",
-                "libkeymasterutils",
-                "libbase",
-                "android.hardware.keymaster@4.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libslimclient",
     owner: "sony",
     strip: {

@@ -347,7 +347,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     liblocationservice \
     liblocationservice_glue \
-    libqtikeymaster4 \
     libslimclient \
     libsomc_camerapal \
     sensors.ssc \
