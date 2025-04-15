@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/akatsuki
 
 PRODUCT_COPY_FILES += \
+    vendor/sony/akatsuki/proprietary/recovery/root/vendor/firmware/touch_module_id_0x01.img:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/touch_module_id_0x01.img \
     vendor/sony/akatsuki/proprietary/vendor/camera/LGI13BS0/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI13BS0/color_ctrl.dat \
     vendor/sony/akatsuki/proprietary/vendor/camera/LGI13BS0/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI13BS0/dataflow.dat \
     vendor/sony/akatsuki/proprietary/vendor/camera/LGI13BS0/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI13BS0/exposure_ctrl.dat \
